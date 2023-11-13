@@ -13,7 +13,7 @@ body::-webkit-scrollbar  {
 
 
 header {
-  background-image: url("header-background.jpg");  
+  background:transparent;  
   background-size: cover;
   background-position: center;
   padding: 30px 0;
@@ -23,6 +23,8 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;  
+  background:rgba(red, green, blue, alpha);
+  
 }
 
 .header-container {
@@ -48,9 +50,9 @@ header {
   font-size: 24px;
   margin-left: 10px;
 }
-
 nav ul {
   list-style: none;
+  
 }
 
 nav ul li {
@@ -60,14 +62,21 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #094D92;
   font-size: 18px;
 }
 
  
 nav ul li a:hover {
-  text-decoration: underline;
-}
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #ff6978;  
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  margin-right: 0%;}
  
 body {
   padding-top: 100px;  
