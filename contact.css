@@ -1,0 +1,210 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+  body {
+    margin: 0;
+    margin-top: px;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar  {
+  display: none;
+  background-color: #fffcf9; 
+  color: #000;  
+  font-family: Arial, sans-serif;
+  margin: 0;  
+  
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+header {
+  background:transparent;  
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  padding-bottom: 10px ;
+  text-align: center;
+  position: fixed; 
+  top: ;  
+  left: 0;
+  right: 0;
+  z-index: 1000;  
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px ;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: -12px;
+}
+
+.logo img {
+  width: 50px;
+  margin-left: 10px; 
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin-left: 10px;
+}
+nav ul {
+  list-style: none;
+  margin-top: 4px;
+  
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #094D92;
+  font-size: 18px;
+  padding: 15px 15px;
+}
+ 
+nav ul li a:hover {
+  padding: 15px 15px;
+  background-color: #ff6978;  
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+header {
+    background:transparent;  
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    padding-bottom: 10px ;
+    text-align: center;
+    position: fixed; 
+    top: 0;  
+    left: 0;
+    right: 0;
+    z-index: 1000;  
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  }
+  .contact-page{
+    margin-top: 100px;
+    padding: 10%;
+  }
+  .tittle{
+    margin-left: 20px;
+    display: flexbox;
+    position: fixed;
+    width: 50%;
+  }
+  .tittle h3{
+    color: grey;
+}
+.tittle h1{
+    color: #ff6978;
+}
+.tittle h2{
+    color: #094D92;
+}
+.placeholder{
+    padding:5%;
+}
+/*css for contact form fix background and position*/
+.contact-form [class*="col"] {
+    padding: 0 5px; 
+    }
+  .contact-form .row {
+    margin: 0 0px; }
+  .contact-form input:not([type="submit"]), .contact-form textarea {
+    width: 75%;
+    padding: 5%;
+    margin-bottom: 0px;
+    color: black;
+    border: 2px solid  #05386B;
+    background: transparent; }
+    .contact-form input:not([type="submit"]):hover, .contact-form input:not([type="submit"]):focus, .contact-form textarea:hover, .contact-form textarea:focus {
+      border-color: #009ad8; }
+  .contact-form textarea {
+    min-height: 100px;
+  min-width: 100px; }
+  .contact-form .text-right {
+    text-align: left; }
+    .col-md-offset-0 {
+        margin-left: 0%; }
+        /*css for contact form*/
+
+.details h3{
+    color: grey;
+}
+.details h1{
+    color: #ff6978;
+}
+.details h2{
+    color: #094D92;
+}
+  .details{
+    display: flexbox;
+    position: relative;
+    margin-left: 60%;
+    width: 40%;
+    }
+    .vl {
+        border-left: 6px solid black;
+        height: 300px;
+        display: flex;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 25%;
+    }
+/*Foooter styles no rounded corners here, fix submi button */
+.site-footer {
+    background: #094D92;
+    padding: 50px 0; 
+    display: block;
+    position: relative;}
+    .site-footer .subscribe-form {
+        position: relative;
+        margin-bottom: 0%; }
+        
+      .site-footer .subscribe-form input[type="text"] {
+        padding: 20px 0px 20px 20px;
+        background: #1e202b;
+        width: 50%;
+        color: white; }
+        .col-md-8{
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px; 
+        }
+        .col-md-offset-1 {
+            margin-left: 8.3333333333%; }
+        .col-md-3, .col-md-6 {
+            width: 50%; }
