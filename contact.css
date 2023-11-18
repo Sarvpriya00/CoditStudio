@@ -183,28 +183,3 @@ header {
         margin-left: -3px;
         top: 25%;
     }
-/*Foooter styles no rounded corners here, fix submi button */
-.site-footer {
-    background: #094D92;
-    padding: 50px 0; 
-    display: block;
-    position: relative;}
-    .site-footer .subscribe-form {
-        position: relative;
-        margin-bottom: 0%; }
-        
-      .site-footer .subscribe-form input[type="text"] {
-        padding: 20px 0px 20px 20px;
-        background: #1e202b;
-        width: 50%;
-        color: white; }
-        .col-md-8{
-            position: relative;
-            min-height: 1px;
-            padding-left: 15px;
-            padding-right: 15px; 
-        }
-        .col-md-offset-1 {
-            margin-left: 8.3333333333%; }
-        .col-md-3, .col-md-6 {
-            width: 50%; }
