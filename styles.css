@@ -91,7 +91,7 @@ body {
 }  
 .hero {
   background-image: linear-gradient();
-  background-image: url("images/Hero.jpg"); 
+  background-image: url("images/people/p1.jpg"); 
   background-size: cover;
   background-position: center;
   color: #000;
@@ -136,7 +136,68 @@ body {
 .cta-button:hover {
   background-color: #ff6978;  
 }
- 
+
+.offers {
+  width: 100%;
+  background-color: #FFFCF9;
+  /* height: fit-content;
+  width: fit-content; */
+  color: #68B684;
+  text-align: left;
+  padding: 20px ; 
+  display: flex;
+  justify-content: center;
+}
+.offers img{
+  margin-left: 130px;
+}
+.offer-content {
+  max-width: max-content;
+  margin: 60px;
+  margin-top: 90px;
+}
+/* .offer h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+ */
+ .offer-content h2{
+  font-size: 36px;
+  text-align: center;
+
+ }
+
+
+
+
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.p-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff6978;  
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-right: 20px;
+}
+
+.p-button {
+  background-color: #094D92;
+  border: 2px solid #094D92; 
+}
+
+.p-button:hover {
+  background-color: transparent;  
+  color: #000;
+}
 .portfolio {
   background-color: #fffcf9;  
   color: #000;
@@ -254,8 +315,6 @@ body {
   opacity: 1;  
 } 
 
-
-
 .photographer-images {
   display: flex;
   justify-content: center;
@@ -271,13 +330,17 @@ body {
 .testimonials {
   display: flex;
   justify-content: space-around;
-
   margin: 20px;
+  background-color: #68B684;
+  padding: 20px;
+  border-radius: 20px;
 }
-
+.testimonials::before{
+  filter: blur(5px);
+}
 .testimonial {
- height: 200px;
- width: 200px;
+ height: auto;
+ width: auto;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -286,8 +349,8 @@ body {
 
 .testimonial img {
   border-radius: 50%;
-  max-width: 100px;
-  height: auto;
+  max-width: 50px;
+  height: 50px;
 }
 
 .testimonial h3 {
@@ -323,25 +386,74 @@ article {
 /*Foooter styles no rounded corners here, fix submi button */
 .site-footer {
   background: #094D92;
-  padding: 50px 0; 
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 15px;
   display: block;
-  position: relative;}
-  .site-footer .subscribe-form {
-      position: relative;
-      margin-bottom: 0%; }
+  position: relative;
+}
+.row h1{
+  color: #FFFCF9;
+  margin-left: 20%;
+  padding: 10px;
+}
+
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 0%;
+  justify-content: center;
+}
       
-    .site-footer .subscribe-form input[type="text"] {
-      padding: 20px 0px 20px 20px;
-      background: #1e202b;
-      width: 50%;
-      color: white; }
-      .col-md-8{
-          position: relative;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px; 
-      }
-      .col-md-offset-1 {
-          margin-left: 8.3333333333%; }
-      .col-md-3, .col-md-6 {
-          width: 50%; }
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 0px 20px 20px;
+  background: #1e202b;
+  width: 50%;
+  color: white;
+  border-color: #000;
+  border-radius: 50px;
+}
+.sub{
+  background-color: #000;
+  color: #fff;
+  width: 120px;
+  height: 55px;
+  border: #000;
+  border-radius: 50px;
+}
+.col-md-8{
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  .icon-bar {
+    width: 50%;
+    background-color: transparent;
+    overflow: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .icon-bar a {
+    float: center;
+    width: 20%;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: transparent;
+  }
+  
+  .active {
+    background-color: transparent;
+  }
+.copyright{
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}

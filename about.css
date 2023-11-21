@@ -100,7 +100,7 @@ nav ul li a:hover {
 .parallax1 {
   /* The image used */
   margin-top: 75px;
-  background-image: url("images/Hero.jpg");
+  background-image: url("images/p4.jpg");
   padding: 50px;
 
   /* Set a specific height */
@@ -131,12 +131,3 @@ nav ul li a:hover {
  background-repeat: no-repeat;
  background-size: cover; 
 }
-.footer{
-  background-color: #68b684;
-}
-.logo1 img{
-  width: 50px;
-}
-.logo1 h1{
-  font-size: 24px;
-} 
