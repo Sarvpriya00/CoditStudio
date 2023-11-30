@@ -93,14 +93,10 @@ nav ul li a:hover {
   border-radius: 5px;
   transition: background-color 0.5s;
 }
- 
-
-
-
 .parallax1 {
   /* The image used */
   margin-top: 75px;
-  background-image: url("images/p4.jpg");
+  background-image: url("pp1.JPG");
   padding: 50px;
 
   /* Set a specific height */
@@ -112,14 +108,33 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container {
+.container1 {
   padding: 40px;
   color: #094D92;
   font-size: large;
+  display: flex;
+  justify-content: center;
+}
+.ttext h1{
+  font-size: 70px;
+  color: #ff6978;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.description1 {
+  padding 10px;
+}
+.description2 {
+  padding 10px;
+
+}
+.description3 {
+  padding 10px;
+
 }
 .parallax2 {
  /* The image used */
- background-image: url("hero2.jpg");
+ background-image: url("pp2.JPG");
  padding: 50px;
 
  /* Set a specific height */
